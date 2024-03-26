@@ -1,0 +1,101 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Eco Print</string>
+
+    <!-- Titles -->
+    <string name="title_home">Home</string>
+    <string name="title_calculator">Calculator</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_login">Sign In</string>
+    <string name="title_history">History</string>
+    <string name="title_signup">Sign Up</string>
+
+    <!-- Buttons -->
+    <string name="button_get_started">Get Started</string>
+    <string name="button_next">Next</string>
+    <string name="button_login">Sign In</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_submit">Submit</string>
+    <string name="profile_update">Update</string>
+    <string name="profile_delete">Delete</string>
+    <string name="calculator_calculate">Calculate</string>
+
+    <!-- Hyperlinks -->
+    <string name="hyperlink_forgot_password">Forgot password</string>
+    <string name="hyperlink_signup">Sign Up</string>
+    <string name="hyperlink_login">Log In</string>
+
+    <!-- Labels -->
+    <string name="label_username">Username</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+
+    <!-- Messages -->
+    <string name="message_login_success">Login successful</string>
+    <string name="message_login_failed">Login failed</string>
+    <string name="message_registration_success">Registration successful</string>
+    <string name="message_registration_failed">Registration failed</string>
+
+    <!-- Errors -->
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_password_short">Password must be at least 6 characters long</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+
+    <!-- Content Description -->
+    <string name="content_splash_logo">Logo image</string>
+    <string name="content_splash_next">Get Started</string>
+    <string name="content_onboarding1_text">Onboarding Text 1</string>
+    <string name="content_onboarding1_button">Button</string>
+    <string name="content_login_top_curve">Top Curve</string>
+    <string name="content_home_average_text">Average Carbon Footprint</string>
+    <string name="content_home_your_footprint">Your Carbon Footprint</string>
+    <string name="content_profile_icon">Icon</string>
+
+    <!-- Splash Screen Texts -->
+    <string name="splash_get_started">Tap to Continue</string>
+
+    <!-- Onboarding Screen Texts -->
+    <string name="onboarding1_text">A carbon footprint is a calculated value or index that makes it possible to compare the total amount of greenhouse gases that an activity, product, company or country adds to the atmosphere.</string>
+    <string name="onboarding_button_1">Next</string>
+    <string name="onboarding2_text">Reducing the carbon footprint can help reduce global warming by minimizing the greenhouse gases, leading to a safer world for both man and animal. </string>
+    <string name="onboarding3_text">Let\'s calculate your carbon footprint so you can be a part of reducing global warning and make this planet a better place.</string>
+
+    <!-- Login Texts -->
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_login_button">Log in</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_home">Home</string>
+    <string name="menu_calculator">Calculator</string>
+    <string name="menu_history">History</string>
+    <string name="menu_profile">Profile</string>
+    <string name="home_big_box">Home Div</string>
+    <string name="home_text_1">Average Carbon Footprint</string>
+    <string name="home_average_footprint">4.2 Tons</string>
+    <string name="home_your_footprint">2.3 Tons</string>
+    <string name="home_text_2">Your Carbon Footprint</string>
+    <string name="home_life_text_green">You are leading a greener life</string>
+    <string name="home_life_text_grey">Your footprint is near average</string>
+    <string name="home_life_text_red">You can have a heavy impact on nature</string>
+    <string name="profile_name_text">Name: </string>
+    <string name="profile_email_text">Email: </string>
+    <string name="profile_password_text">Password: </string>
+    <string name="profile_country_text">Country: </string>
+    <string name="profile_name">John Doe</string>
+    <string name="profile_email">johndoe@example.com</string>
+    <string name="profile_password">*********</string>
+    <string name="profile_country">Sri Lanka: </string>
+    <string name="calculator_electricity_use">Daily Electricity Usage (kWh)</string>
+    <string name="calculator_personal_vehicle">Personal Vehicle Mileage (km)</string>
+    <string name="calculator_public_transport">Public Transport Mileage (km)</string>
+    <string name="history_item">history_item</string>
+    <string name="date">Date:  </string>
+    <string name="sample_date"> 2013 / 12 / 01</string>
+    <string name="sample_tons">2.5 Tonnes</string>
+
+</resources>

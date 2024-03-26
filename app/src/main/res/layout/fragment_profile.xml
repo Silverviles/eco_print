@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/content_profile_icon"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="25dp"
+            android:contentDescription="@string/profile_name_text"
+            android:labelFor="@+id/name"
+            android:text="@string/profile_name_text"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileIcon" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints="name"
+            android:background="@drawable/profile_field"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="@string/profile_name"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textNameLabel" />
+
+        <TextView
+            android:id="@+id/textEmailLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:contentDescription="@string/profile_email_text"
+            android:labelFor="@id/email"
+            android:text="@string/profile_email_text"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/textNameLabel"
+            app:layout_constraintTop_toBottomOf="@+id/textNameLabel" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/profile_field"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:text="@string/profile_email"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/textEmailLabel" />
+
+        <TextView
+            android:id="@+id/textPasswordLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:contentDescription="@string/profile_password_text"
+            android:labelFor="@id/password"
+            android:text="@string/profile_password_text"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/textEmailLabel"
+            app:layout_constraintTop_toBottomOf="@+id/textEmailLabel" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints="password"
+            android:background="@drawable/profile_field"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:text="@string/profile_password"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/email"
+            app:layout_constraintTop_toBottomOf="@+id/textPasswordLabel" />
+
+        <!-- Country -->
+
+        <TextView
+            android:id="@+id/textCountryLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:contentDescription="@string/profile_country_text"
+            android:labelFor="@id/country"
+            android:text="@string/profile_country_text"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/textPasswordLabel"
+            app:layout_constraintTop_toBottomOf="@+id/textPasswordLabel" />
+
+        <EditText
+            android:id="@+id/country"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints="country"
+            android:background="@drawable/profile_field"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="@string/profile_country"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/password"
+            app:layout_constraintTop_toBottomOf="@+id/textCountryLabel" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/blue_button"
+            android:backgroundTint="@color/blue"
+            android:contentDescription="@string/profile_update"
+            android:text="@string/profile_update"
+            app:backgroundTint="@null"
+            app:layout_constraintStart_toStartOf="@+id/country"
+            app:layout_constraintTop_toBottomOf="@+id/country" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/profile_delete"
+            android:contentDescription="@string/profile_delete"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="@+id/country"
+            android:background="@drawable/red_button"
+            app:layout_constraintTop_toBottomOf="@+id/country" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
