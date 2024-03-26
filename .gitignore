@@ -15,3 +15,4 @@
 local.properties
 /app/src/androidTest/java/com/mad/madlab2/
 /app/src/test/java/com/mad/madlab2/
+/app/google-services.json
